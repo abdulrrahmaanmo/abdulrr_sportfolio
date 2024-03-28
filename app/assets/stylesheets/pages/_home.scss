@@ -14,8 +14,9 @@ body {
   display: flex;
   justify-content: center;
   font-size: 85px;
+  -webkit-text-stroke: 1px whitesmoke;
   font-family: "Russo One", sans-serif;
-  color: whitesmoke;
+  color: rgb(129, 107, 175);
   padding: 0px;
 }
 
@@ -25,6 +26,10 @@ body {
   padding: 40px;
   color: whitesmoke;
   font-family: "Russo One", sans-serif;
+  strong {
+    color: black;
+    -webkit-text-stroke: 0.7px rgb(129, 107, 175);
+  }
 }
 
 .profile-image {
@@ -33,7 +38,7 @@ body {
   height: 300px;
   border-radius: 50%;
   margin-right: 60px;
-  border: 4px solid whitesmoke;
+  border: 4px solid rgb(129, 107, 175);
   object-fit:cover;
 }
 
@@ -45,9 +50,39 @@ body {
   clear: both;
 }
 
-.aboutmehome {
+.certihome, .skillshome {
   font-size: 40px;
+  -webkit-text-stroke: 1px whitesmoke;
   font-family: "Russo One", sans-serif;
-  color: whitesmoke;
+  color: rgb(129, 107, 175);
+}
+
+.certihome{
   padding-left: 40px;
+}
+
+.skillshome {
+  padding-right: 70px;
+}
+
+.additional-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  ul {
+    font-family: 'Nico Moji', sans-serif;
+    color: whitesmoke;
+    font-size:25px;
+    padding-right: 85px;
+  }
+}
+
+.footer {
+  border-top: 1px solid whitesmoke;
+  height: 120px;
+  margin: 0 16px;
+  display: flex;
+  justify-content: space-evenly;
 }
