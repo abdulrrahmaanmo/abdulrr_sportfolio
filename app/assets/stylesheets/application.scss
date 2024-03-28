@@ -11,10 +11,11 @@
 @import "components/index";
 @import "pages/index";
 
-body {
-  background: linear-gradient(to bottom, #342626, #E66C6C);
+.container {
+  background: linear-gradient(to bottom, #0E0E0E, #122465);
   /* Adjust colors as needed */
   background-size: cover;
+  min-width: 100%;
 }
 
 html, body {

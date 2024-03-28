@@ -1,9 +1,32 @@
+
 <body class="ao-page">
-  <h1 class="bigname">ABDULRRAHMAAN</h1>
-  <h1 class="bignamesecond">OMAR</h1>
-  <%= image_tag "profilepic.jpeg", class: "profile-image" %>
-  <div class="description-ao">
-    <p>Im Abdul !</p>
-    <p>A Full stack developer, delving into the exciting realm of technology. With a few websites under my belt, I'm eager to embark on more projects. Off the clock, you'll find me immersed in the world of football, both on the field and in front of the screen. I'm thrilled to explore the endless possibilities in the tech universe!</p>
+  <div class="container">
+    <nav>
+  <div class="navbar-left">
+      <ul>
+      <li class="ao-nb"><%= link_to 'A   O', root_path %></li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+    <ul>
+      <li class="project-nb"><%= link_to 'PROJECTS', '#' %></li>
+      <li class="contact-nb"><%= link_to 'CONTACT ME', '#' %></li>
+    </ul>
+    </div>
+    </nav>
+
+    <h1 class="bigname">ABDULRRAHMAAN</h1>
+    <h1 class="bignamesecond">OMAR</h1>
+    <div class="profile-section">
+      <%= image_tag "profilepic.jpeg", class: "profile-image" %>
+      <div class="description-ao">
+        <p>Im Abdul !</p>
+        <p>A Full stack developer, delving into the exciting realm of technology. With a few websites under my belt, I'm eager to embark on more projects. Off the clock, you'll find me immersed in the world of football, both on the field and in front of the screen. I'm thrilled to explore the endless possibilities in the tech universe!</p>
+      </div>
+    </div>
+    <div class="additional-section">
+
+      <p class ="aboutmehome">MORE ....</p>
+    </div>
   </div>
 </body>
