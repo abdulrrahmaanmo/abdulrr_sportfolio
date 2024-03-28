@@ -1,4 +1,11 @@
-// Specific CSS for your home-page
+Specific CSS for your home-page
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
 .bigname {
   margin-top: 75px;
 }
@@ -8,7 +15,7 @@
   justify-content: center;
   font-size: 85px;
   font-family: "Russo One", sans-serif;
-  color: white;
+  color: whitesmoke;
   padding: 0px;
 }
 
@@ -26,6 +33,21 @@
   height: 300px;
   border-radius: 50%;
   margin-right: 60px;
+  border: 4px solid whitesmoke;
   object-fit:cover;
-  // margin-bottom: 50px !important;
+}
+
+.profile-section {
+  margin-bottom: 400px;
+}
+
+.aboutme {
+  clear: both;
+}
+
+.aboutmehome {
+  font-size: 40px;
+  font-family: "Russo One", sans-serif;
+  color: whitesmoke;
+  padding-left: 40px;
 }
