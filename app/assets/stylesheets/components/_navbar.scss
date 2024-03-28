@@ -1,12 +1,64 @@
-.navbar-lewagon {
+nav {
+  padding-top: 16px;
+  background-color: transparent;
+  /* Add more navbar styles as needed */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff; /* Change the color as needed */
+}
+
+nav {
+  display: flex;
   justify-content: space-between;
-  background: white;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-left ul,
+.navbar-right ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-right ul {
+  text-align: right;
+}
+
+.navbar-left ul li,
+.navbar-right ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar-right ul li:last-child {
+  margin-right: 0;
+}
+
+.contact-nb {
+  padding-right: 23px;
+}
+
+.ao-nb {
+  padding-left: 30px;
+}
+
+.project-nb {
+padding-right: 20px;
+}
+
+.ao-nb, .project-nb, .contact-nb {
+  font-size: 25px;
+  font-family: 'Nico Moji', sans-serif;
+  font-optical-sizing: auto;
 }

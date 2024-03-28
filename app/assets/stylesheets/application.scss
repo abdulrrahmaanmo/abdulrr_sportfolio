@@ -10,3 +10,15 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  background: linear-gradient(to bottom, #342626, #E66C6C);
+  /* Adjust colors as needed */
+  background-size: cover;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

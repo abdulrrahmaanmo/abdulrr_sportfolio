@@ -1,0 +1,2 @@
+class AohomeController < ApplicationController
+end
